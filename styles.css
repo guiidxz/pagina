@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333; /* Cor do texto do título */
+    background-image: url('background.jpg'); /* Imagem de fundo */
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imagem-container img {
+    width: 30%; /* Tamanho das imagens */
+}
+
+p {
+    margin-top: 20px;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icones-redes-sociais a {
+    margin: 0 10px;
+}
+
+.icones-redes-sociais img {
+    width: 30px; /* Tamanho dos ícones */
+}
